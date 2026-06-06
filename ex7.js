@@ -14,7 +14,7 @@ class Cachorro extends Animal {
         super(nome, 'latido');
         this.raca = raca;
     }
-    emitirSom() {
+    emitirSom () {
         console.log(`${this.nome} está emitindo o som ${this.som}`)
     }
 }
